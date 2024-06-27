@@ -50,10 +50,13 @@ PRODUCT_PACKAGES += \
     libfmpal \
     libhfp_pal \
     libsndcardparser \
-        libqcompostprocbundle \
+    libaudioroute.vendor \
+    libprocessgroup.vendor \
+    libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-        libvolumelistener
+    libstagefright_softomx_plugin.vendor \
+    libvolumelistener
 
 # Automotive
 PRODUCT_PACKAGES += \
