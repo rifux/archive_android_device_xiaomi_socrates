@@ -23,7 +23,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 BUILD_FINGERPRINT := Redmi/socrates/socrates:14/UKQ1.230804.001/V816.0.9.0.UMKCNXM:user/release-keys
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    RISING_CHIPSET="Qualcomm Snapdragon 8 gen 2" \
+    RISING_CHIPSET="Snapdragon 8 Gen 2" \
     RISING_MAINTAINER="Vladimir Blinkov"
 
 RISING_PACKAGE_TYPE := "VANILLA_AOSP"
