@@ -94,10 +94,16 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
+    libcamera_metadata.vendor \
     android.hardware.camera.provider@2.7.vendor \
     android.hardware.camera.common-V1-ndk.vendor \
     android.hardware.camera.device-V1-ndk.vendor \
     android.hardware.camera.provider-V1-ndk.vendor \
+    libexif.vendor \
+    liblz4.vendor \
+    libutilscallstack.vendor \
+    libutilscallstack.vendor:64 \
+    libyuv.vendor \
     libexif.vendor \
     libjpeg.vendor \
     liblz4.vendor
@@ -231,7 +237,12 @@ PRODUCT_PACKAGES += \
 
 # Libcurl
 PRODUCT_PACKAGES += \
-    libcurl.vendor
+    libcurl.vendor \
+    libcurl.vendor:64 \
+    libjsoncpp.vendor \
+    libnetutils.vendor \
+    libsqlite.vendor \
+    libsqlite.vendor:64
 
 # Libsqlite
 PRODUCT_PACKAGES += \
@@ -446,4 +457,6 @@ PRODUCT_PACKAGES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
+    libnl \
+    libpng.vendor \
     libwfdaac_vendor
