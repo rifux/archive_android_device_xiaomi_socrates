@@ -9,5 +9,5 @@ git clone -b lineage-21 https://github.com/danielml3/android_kernel_xiaomi_socra
 git clone -b lineage-21 https://github.com/danielml3/android_kernel_xiaomi_socrates-devicetrees kernel/xiaomi/socrates-devicetrees
 
 # Hardware
-#echo 'Cloning hardware/xiaomi...'
-#rm -rf hardware/xiaomi && git clone -b lineage-21 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
+echo 'Cloning hardware/xiaomi...'
+git clone -b lineage-21 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
