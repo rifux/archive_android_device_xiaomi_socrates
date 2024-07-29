@@ -37,7 +37,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # RisingOS build flags
 # | Google
 WITH_GMS := true
-TARGET_CORE_GMS := true
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_NO_CAMERA := false
 TARGET_DEFAULT_PIXEL_LAUNCHER := true
