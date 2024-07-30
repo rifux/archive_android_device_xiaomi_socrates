@@ -361,6 +361,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetracker@1.2.vendor
 
+# Signing
+-include vendor/lineage-priv/keys/keys.mk
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 33
 
