@@ -32,7 +32,8 @@ TARGET_ENABLE_BLUR := true
 RISING_MAINTAINER := "Vladimir Blinkov"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     RISING_CHIPSET="Snapdragon 8 Gen 2" \
-    RISING_MAINTAINER="Vladimir Blinkov"
+    RISING_MAINTAINER="Vladimir Blinkov" \
+    PRIVATE_BUILD_DESC="socrates-user 14 UKQ1.230804.001 V816.0.9.0.UMKCNXM release-keys"
 
 # RisingOS build flags
 # | Google
