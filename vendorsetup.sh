@@ -4,7 +4,7 @@ git clone -b fourteen https://codeberg.org/rifux/proprietary_vendor_xiaomi_socra
 
 # Kernel
 echo 'Cloning Kernel Tree...'
-git clone -b lineage-21 https://github.com/danielml3/android_kernel_xiaomi_socrates kernel/xiaomi/socrates
+git clone -b fourteen https://github.com/rifux/android_kernel_xiaomi_socrates kernel/xiaomi/socrates
 git clone -b lineage-21 https://github.com/danielml3/android_kernel_xiaomi_socrates-modules kernel/xiaomi/socrates-modules
 git clone -b lineage-21 https://github.com/danielml3/android_kernel_xiaomi_socrates-devicetrees kernel/xiaomi/socrates-devicetrees
 
