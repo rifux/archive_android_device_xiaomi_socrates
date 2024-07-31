@@ -14,7 +14,7 @@ $(call inherit-product, device/xiaomi/socrates/device.mk)
 # Inherit LineageOS configurations
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# LineageOS
+# AOSP common flags
 PRODUCT_NAME := lineage_socrates
 PRODUCT_DEVICE := socrates
 PRODUCT_MODEL := Redmi K60 Pro
@@ -30,6 +30,7 @@ TARGET_SCREEN_WIDTH := 1440
 # RisingOS common flags
 TARGET_ENABLE_BLUR := true
 RISING_MAINTAINER := "Vladimir Blinkov"
+PRODUCT_NO_CAMERA := false
 PRODUCT_BUILD_PROP_OVERRIDES += \
     RISING_CHIPSET="Snapdragon 8 Gen 2" \
     RISING_MAINTAINER="Vladimir Blinkov" \
@@ -39,7 +40,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # | Google
 WITH_GMS := true
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-PRODUCT_NO_CAMERA := false
 TARGET_DEFAULT_PIXEL_LAUNCHER := true
 TARGET_ENABLE_PIXEL_FEATURES := true
 
