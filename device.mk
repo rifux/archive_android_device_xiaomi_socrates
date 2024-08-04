@@ -29,6 +29,9 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@7.0-impl \
     audio.primary.default \
     audio.r_submix.default \
+    libaudioroute.vendor \
+    libprocessgroup.vendor \
+    libstagefright_softomx_plugin.vendor \
     libtinycompress \
     libeffectsconfig.vendor
 
