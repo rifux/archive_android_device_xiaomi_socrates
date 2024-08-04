@@ -94,13 +94,19 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
+    libcamera_metadata.vendor \
     android.hardware.camera.provider@2.7.vendor \
     android.hardware.camera.common-V1-ndk.vendor \
     android.hardware.camera.device-V1-ndk.vendor \
     android.hardware.camera.provider-V1-ndk.vendor \
     libexif.vendor \
     libjpeg.vendor \
-    liblz4.vendor
+    liblz4.vendor \
+    libutilscallstack.vendor \
+    libutilscallstack.vendor:64 \
+    libyuv.vendor \
+
+
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.aon@1.3.vendor \
@@ -231,11 +237,14 @@ PRODUCT_PACKAGES += \
 
 # Libcurl
 PRODUCT_PACKAGES += \
-    libcurl.vendor
+    libcurl.vendor \
+    libcurl.vendor:64 \
+    libnetutils.vendor 
 
 # Libsqlite
 PRODUCT_PACKAGES += \
-    libsqlite.vendor
+    libsqlite.vendor \
+    libsqlite.vendor:64
 
 # Light
 PRODUCT_PACKAGES += \
@@ -252,7 +261,9 @@ PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
     libcodec2_soft_common.vendor \
     libvorbisidec.vendor \
-    libvpx.vendor
+    libvpx.vendor \
+    libpng.vendor
+
 
 PRODUCT_PACKAGES += \
     libOmxCore \
@@ -268,7 +279,8 @@ PRODUCT_PACKAGES += \
     libnetfilter_conntrack \
     libnfnetlink \
     libpcap.vendor \
-    librmnetctl
+    librmnetctl \
+    libnl
 
 # NFC
 PRODUCT_PACKAGES += \
