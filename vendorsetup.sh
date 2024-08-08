@@ -13,8 +13,8 @@ git clone -b fourteen https://codeberg.org/rifux/proprietary_vendor_xiaomi_socra
 # Kernel
 echo 'Cloning Kernel Tree...'
 git clone -b fourteen https://github.com/rifux/android_kernel_xiaomi_sm8550 kernel/xiaomi/sm8550
-git clone -b lineage-21 https://github.com/danielml3/android_kernel_xiaomi_sm8550-modules kernel/xiaomi/sm8550-modules
-git clone -b lineage-21 https://github.com/danielml3/android_kernel_xiaomi_sm8550-devicetrees kernel/xiaomi/sm8550-devicetrees
+git clone -b lineage-21 https://github.com/rifux/android_kernel_xiaomi_sm8550-modules kernel/xiaomi/sm8550-modules
+git clone -b lineage-21 https://github.com/rifux/android_kernel_xiaomi_sm8550-devicetrees kernel/xiaomi/sm8550-devicetrees
 
 # Hardware
 echo 'Cloning hardware/xiaomi...'
