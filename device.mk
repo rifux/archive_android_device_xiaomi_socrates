@@ -95,6 +95,8 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl-qti.recovery
 
 # Camera
+$(call inherit-product-if-exists, vendor/xiaomi/socrates-camera/miuicamera.mk)
+
 PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
     libcamera_metadata.vendor \

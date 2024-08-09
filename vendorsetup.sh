@@ -19,3 +19,7 @@ git clone -b lineage-21 https://github.com/rifux/android_kernel_xiaomi_sm8550-de
 # Hardware
 echo 'Cloning hardware/xiaomi...'
 git clone -b lineage-21 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
+
+# MIUI camera
+echo 'Cloning vendor/xiaomi/socrates-camera'
+git clone -b lineage-21 https://github.com/danielml3/android_vendor_xiaomi_socrates-camera vendor/xiaomi/socrates-camera
