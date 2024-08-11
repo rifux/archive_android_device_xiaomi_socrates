@@ -22,7 +22,7 @@ git clone -b lineage-21 https://github.com/LineageOS/android_hardware_xiaomi har
 
 # MIUI camera
 echo 'Cloning vendor/xiaomi/socrates-camera'
-git clone -b lineage-21 https://github.com/danielml3/android_vendor_xiaomi_socrates-camera vendor/xiaomi/socrates-camera
+git clone -b fourteen https://codeberg.org/rifux/android_vendor_xiaomi_socrates-camera vendor/xiaomi/socrates-camera
 
 # KernelSU
 echo 'Fetching kernel/xiaomi/sm8550/KernelSU'
