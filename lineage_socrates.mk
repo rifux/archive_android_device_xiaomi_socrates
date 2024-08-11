@@ -21,7 +21,7 @@ PRODUCT_MODEL := Redmi K60 Pro
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := Redmi/socrates/socrates:14/UKQ1.230804.001/V816.0.9.0.UMKCNXM:user/release-keys
+BUILD_FINGERPRINT := Redmi/socrates/socrates:13/UKQ1.230804.001/V816.0.9.0.UMKCNXM:user/release-keys
 
 # RisingOS common flags
 TARGET_ENABLE_BLUR := true
@@ -30,7 +30,7 @@ PRODUCT_NO_CAMERA := false
 PRODUCT_BUILD_PROP_OVERRIDES += \
     RISING_CHIPSET="Snapdragon 8 Gen 2" \
     RISING_MAINTAINER="Vladimir Blinkov" \
-    PRIVATE_BUILD_DESC="socrates-user 14 UKQ1.230804.001 V816.0.9.0.UMKCNXM release-keys"
+    PRIVATE_BUILD_DESC="socrates-user 13 UKQ1.230804.001 V816.0.9.0.UMKCNXM release-keys"
 
 # RisingOS build flags
 # | Google
