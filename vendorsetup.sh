@@ -8,7 +8,7 @@
 
 # Vendor
 echo 'Cloning Vendor Tree...'
-git clone -b fourteen https://codeberg.org/rifux/proprietary_vendor_xiaomi_socrates vendor/xiaomi/socrates
+git clone -b V816.0.24.7.28.DEV https://codeberg.org/rifux/proprietary_vendor_xiaomi_socrates vendor/xiaomi/socrates
 
 # Kernel
 echo 'Cloning Kernel Tree...'
@@ -22,7 +22,7 @@ git clone -b lineage-21 https://github.com/LineageOS/android_hardware_xiaomi har
 
 # MIUI camera
 echo 'Cloning vendor/xiaomi/socrates-camera'
-git clone -b fourteen https://codeberg.org/rifux/android_vendor_xiaomi_socrates-camera vendor/xiaomi/socrates-camera
+git clone -b V816.0.24.7.28.DEV https://codeberg.org/rifux/android_vendor_xiaomi_socrates-camera vendor/xiaomi/socrates-camera
 
 # KernelSU
 echo 'Fetching kernel/xiaomi/sm8550/KernelSU'
