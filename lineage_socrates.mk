@@ -51,6 +51,13 @@ WITH_GMS := true
 # | Vanilla
 #WITH_GMS := false
 
-# Cromite Web browser
+# Additional packages
+# | Cromite Web browser [prebuilt]
 PRODUCT_PACKAGES += \
     CromitePrebuilt
+# | F-Droid [prebuilt]
+PRODUCT_PACKAGES += \
+    F-Droid
+# | F-Droid Privileged Extension [sources]
+PRODUCT_PACKAGES += \
+    F-DroidPrivilegedExtension

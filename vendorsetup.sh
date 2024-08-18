@@ -33,3 +33,7 @@ cd ../../..
 # Cromite Web browser
 echo 'Cloning packages/apps/CromitePrebuilt'
 git clone -b fourteen https://codeberg.org/rifux/android_packages_apps_CromitePrebuilt packages/apps/CromitePrebuilt
+
+# F-Droid 
+git clone -b fourteen https://github.com/LMODroid/platform_packages_apps_F-DroidPrivilegedExtension packages/apps/F-DroidPrivilegedExtension
+git clone -b fourteen https://codeberg.org/rifux/android_packages_apps_F-Droid packages/apps/F-Droid
