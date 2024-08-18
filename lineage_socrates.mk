@@ -42,6 +42,9 @@ MATRIXX_BATTERY := 5000mAh
 MATRIXX_DISPLAY := 1440x3200
 
 # Matrixx build flags
+TARGET_EXCLUDES_VIA := true
+TARGET_EXCLUDES_AUDIOFX := true
+
 # | Google
 WITH_GMS := true
 
