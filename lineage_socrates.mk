@@ -50,3 +50,7 @@ WITH_GMS := true
 
 # | Vanilla
 #WITH_GMS := false
+
+# Cromite Web browser
+PRODUCT_PACKAGES += \
+    CromitePrebuilt

@@ -29,3 +29,7 @@ echo 'Fetching kernel/xiaomi/sm8550/KernelSU'
 cd kernel/xiaomi/sm8550
 git submodule init && git submodule update KernelSU
 cd ../../..
+
+# Cromite Web browser
+echo 'Cloning packages/apps/CromitePrebuilt'
+git clone -b fourteen https://codeberg.org/rifux/android_packages_apps_CromitePrebuilt packages/apps/CromitePrebuilt
